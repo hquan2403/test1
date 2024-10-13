@@ -1,0 +1,71 @@
+.hh-box{
+    width: 180px; 
+    height: 250px; 
+    border: 1px solid blue; 
+    text-align: center;
+    padding-top: 10px;
+    position: relative; 
+    display: inline-block;
+    margin: 5px;
+    border-radius: 10px;
+}
+.hh-box:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 7px red;}
+.hh-box-img{
+    width: 150px;
+    width: 80%;
+    height: 50%;
+    transition: transform 0.3s ease-in-out;
+
+}
+.hh-box:hover .hh-box-img {
+    transform: translateY(-10px);
+
+
+}
+.hh-box-newicon{
+    width: 50px;
+    position: absolute;
+    right: 0; 
+    top: 0;
+    border-top-right-radius: 10px;
+}
+.hh-box-price {
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    font-weight: bold;
+    color: red;
+}
+.hh-box-actions {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    width: 25px;
+}
+
+.hh-box-actions img {
+    cursor: pointer;
+    border: 0px;
+}
+.type {
+    position: absolute; top: 172px; left: 15px;
+    font-family: Arial bold;
+
+}
+.hang{
+    position: relative;
+    top: 55px; left: -20px;
+    background-color: silver;
+    padding: 6px;
+    font-size: small;
+    border-radius: 5px;
+    display: inline;
+}
+.gia-shock{
+    width: 80px;
+    position: absolute;
+    right: -30px; 
+    top: -15px;
+ }
